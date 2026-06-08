@@ -6,6 +6,18 @@ The goal of this repository is to consolidate knowledge and resources, making it
 
 This list is a living document. The field of AI testing is dynamic, with new tools and techniques emerging rapidly. We encourage community contributions to help keep this repository up-to-date, accurate, and comprehensive. Please see the "How to Contribute" section for more details on how you can help.
 
+> Building AI apps with Claude Code, Codex, or your favorite API client?
+>
+> Try **[Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=postman-alternatives&utm_content=cta-text)**, an OpenAI-compatible gateway and cheaper OpenRouter alternative. Use one API key, prepaid credits, and top models while cutting AI model costs by up to 50%.
+
+</br>
+
+[<img width="1490" height="915" alt="Blackmagic AI OpenAI-compatible gateway dashboard" src="https://github.com/user-attachments/assets/af41beba-3fe0-4409-bfd6-03c6617a6ab1" />](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=postman-alternatives&utm_content=cta-image)
+
+</br>
+
+> **[Compare model pricing](https://blackmagic.engineering/models?utm_source=github&utm_medium=awesome-list&utm_campaign=postman-alternatives&utm_content=cta-pricing)**
+
 ## Why AI Testing is Important
 
 Testing traditional software has well-established methodologies, but AI systems introduce a new set of complexities that demand specialized approaches and tools. Understanding why AI testing is uniquely critical can help in appreciating the value of the tools listed herein.
