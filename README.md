@@ -764,7 +764,29 @@ This harness is a critical tool for researchers and developers working with LLMs
 
 ---
 
-### 26. Synthetic Data Vault (SDV)
+### 26. agenttrace
+
+* **Link:** [https://github.com/luoyuctl/agenttrace](https://github.com/luoyuctl/agenttrace)
+
+**Overview:**
+agenttrace is a local-first TUI and CLI for evaluating AI coding agent session traces. It focuses on post-run analysis for developer agents, including cost, token usage, latency gaps, failed tools, retries, and health regressions.
+
+**Key Features for AI Testing:**
+
+* **Session Trace Analysis:** Reads local coding-agent session logs and produces structured summaries for review.
+* **Cost and Token Tracking:** Helps teams compare agent runs by usage, cost, and context pressure.
+* **Regression Gates:** Provides health scores and CI checks to catch degraded agent behavior over time.
+* **Portable Reports:** Exports JSON, Markdown, and self-contained HTML reports for sharing and audit trails.
+
+**How it Helps in AI Testing:**
+
+* Supports regression testing for AI coding agents across real development sessions.
+* Helps identify slow steps, failed tool calls, retry loops, and cost spikes.
+* Keeps trace evaluation local, which is useful when agent logs contain private code or prompts.
+
+---
+
+### 27. Synthetic Data Vault (SDV)
 
 * **Link:** [https://sdv.dev/](https://sdv.dev/)
 * **GitHub:** [https://github.com/sdv-dev/SDV](https://github.com/sdv-dev/SDV)
