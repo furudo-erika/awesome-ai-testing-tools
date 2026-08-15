@@ -793,6 +793,32 @@ SDV and similar synthetic data generation tools are becoming increasingly import
 
 ---
 
+### 27. agent-qa
+
+* **Link:** [agent-qa on GitHub](https://github.com/vostride/agent-qa)
+* **Documentation:** [agent-qa Docs](https://vostride.com/docs/agent-qa)
+
+**Overview:**
+agent-qa is an open-source, self-improving QA agent for software teams. It turns natural-language test cases into web and mobile test runs, remembers what it learns, and adapts when interfaces change.
+
+**Key Features for AI Testing:**
+
+* **Natural-Language Test Authoring:** Teams can describe actions and assertions in human language while the agent works from visible roles, labels, and screen state.
+* **Web and Mobile Coverage:** Supports browser and mobile application testing, including Playwright- and Appium-based workflows.
+* **Self-Healing Execution:** When an interaction fails, the agent observes the updated interface and attempts a different path during the same run.
+* **Persistent Test Memory:** Product, suite, and test observations from earlier runs provide context for future execution and help avoid repeated mistakes.
+* **Coding-Agent Integration:** Includes a CLI, dashboard, MCP server, and skills for use from coding-agent workflows.
+* **Model Flexibility:** Supports OpenAI- and Anthropic-compatible endpoints, Gemini, local models, Codex, and Claude Code authentication.
+
+**How it Helps in AI Testing:**
+
+* Applies agentic planning and recovery to end-to-end software quality assurance.
+* Reduces maintenance caused by UI drift and flaky element interactions.
+* Keeps tests, configuration, hooks, and learned memory in version-controlled files for review and reuse.
+* Helps teams catch regressions through repeatable natural-language test suites that improve with use.
+
+---
+
 ## How to Contribute
 
 We welcome contributions to this list! If you know of an AI testing tool that isn't listed here, or if you have suggestions for improving an existing entry, please feel free to contribute.
