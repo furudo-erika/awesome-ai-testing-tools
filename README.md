@@ -799,7 +799,7 @@ SDV and similar synthetic data generation tools are becoming increasingly import
 * **Documentation:** [agent-qa Docs](https://vostride.com/docs/agent-qa)
 
 **Overview:**
-agent-qa is an open-source, self-improving QA agent for software teams. It turns natural-language test cases into web and mobile test runs, remembers what it learns, and adapts when interfaces change.
+agent-qa is a source-available, self-improving QA agent for software teams. It turns natural-language test cases into web and mobile test runs, remembers what it learns, and adapts when interfaces change.
 
 **Key Features for AI Testing:**
 
