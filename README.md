@@ -793,6 +793,27 @@ SDV and similar synthetic data generation tools are becoming increasingly import
 
 ---
 
+### 27. NovaSynth by Noveum
+
+* **Link:** [NovaSynth](https://noveum.ai/en/novasynth)
+* **Documentation:** [NovaSynth overview](https://noveum.ai/en/docs/novasynth/overview)
+* **Pricing:** Commercial freemium; monthly shared credits and paid subscription options.
+
+**Overview:**
+NovaSynth is a self-service platform for testing voice agents over phone or LiveKit. Configurable AI callers exercise conversation scenarios through single or batch test calls, producing recordings, transcripts and evaluations. An account and test endpoint configuration are required.
+
+**Key Features for AI Testing:**
+
+* Configurable AI caller personas and conversation scenarios.
+* Test calls with interruptions and background noise.
+* Single and batch calls over phone or LiveKit.
+* Recordings, transcripts and evaluations for reviewing test outcomes.
+
+**How it Helps in AI Testing:**
+Teams can reuse scenarios after changes to prompts or agents, investigate failed conversations and compare results for regression testing. This focuses on the behavior of voice agents rather than general model benchmarking.
+
+---
+
 ## How to Contribute
 
 We welcome contributions to this list! If you know of an AI testing tool that isn't listed here, or if you have suggestions for improving an existing entry, please feel free to contribute.
