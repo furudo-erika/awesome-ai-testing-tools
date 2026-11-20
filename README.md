@@ -793,6 +793,33 @@ SDV and similar synthetic data generation tools are becoming increasingly import
 
 ---
 
+### 27. Keploy
+
+* **Link:** [https://keploy.io](https://keploy.io)
+* **GitHub (Open Source):** [https://github.com/keploy/keploy](https://github.com/keploy/keploy)
+
+**Overview:**
+Keploy is an open-source black box API testing tool that generates tests from real API traffic instead of hand-written scripts. For AI systems served through APIs, such as model inference endpoints and AI-powered backends, it records how the API actually behaves under real requests and replays that behavior as regression tests, with no changes to application code.
+
+**Key Features for AI Testing:**
+
+* **Test Generation from Real Traffic:** Keploy records real API calls and turns each request and response into a test case. For AI endpoints, this captures realistic inputs and outputs, including edge cases that hand-written test cases often miss.
+* **No Code Changes Required:** Traffic is recorded without changes to the application code, so the service under test is tested from the outside, as a black box.
+* **Automatic Dependency Mocks:** The database and third-party calls behind each request are saved as mocks. For AI services that call external model providers or other APIs, this keeps tests stable and avoids repeated paid or rate-limited calls.
+* **Replay in CI/CD:** Recorded tests can be replayed in CI pipelines on every change, so new model versions, prompt changes or backend updates are checked against previously observed behavior.
+* **Reviewable Changes:** When an API changes on purpose, the affected flows can be re-recorded, and the difference between old and new behavior can be reviewed.
+
+**How it Helps in AI Testing:**
+
+* Catches unintended changes in the API layer of an AI service, such as changed response structure, status codes or fields, after a model or backend update.
+* Provides realistic test coverage for AI endpoints without writing and maintaining test scripts by hand.
+* Makes tests independent of live databases and third-party services, which helps when AI backends depend on external providers.
+* Complements model-level evaluation tools in this list by testing the service wrapped around the model.
+
+Keploy is not a model evaluation tool and does not assess prediction quality, fairness or robustness. It covers the API and integration layer of an AI application, making it a good companion to the data validation and model evaluation tools above.
+
+---
+
 ## How to Contribute
 
 We welcome contributions to this list! If you know of an AI testing tool that isn't listed here, or if you have suggestions for improving an existing entry, please feel free to contribute.
