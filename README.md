@@ -793,6 +793,28 @@ SDV and similar synthetic data generation tools are becoming increasingly import
 
 ---
 
+### 27. Thunders
+
+* **Link:** [https://www.thunders.ai](https://www.thunders.ai)
+
+**Overview:**
+Thunders is an end-to-end testing platform where AI test agents build, run, and maintain tests from plain-language descriptions. It covers web, mobile, API, and desktop applications, and deploys as SaaS, hybrid, or self-hosted.
+
+**Key Features for AI Testing:**
+
+* **Natural-Language Test Authoring:** Testers describe what to test in plain language, and the agents turn the description into executable steps.
+* **AI Test Generation:** Agents generate test cases for an application, which the team reviews and keeps.
+* **Self-Healing at Runtime:** Small UI changes are absorbed while a test runs, and larger breakages can be repaired in one click.
+* **Multi-Platform Coverage:** One platform runs tests on web, mobile, API, and desktop targets.
+
+**How it Helps in AI Testing:**
+
+* Tests AI-powered applications end to end through their real user interface, from user input to the display of AI-generated results.
+* Reduces the maintenance cost of UI tests when the interface of an AI feature changes often.
+* Lets QA engineers and product people write tests without code.
+
+---
+
 ## How to Contribute
 
 We welcome contributions to this list! If you know of an AI testing tool that isn't listed here, or if you have suggestions for improving an existing entry, please feel free to contribute.
